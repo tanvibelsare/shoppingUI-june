@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Profile</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--[if lt IE 7]>
+      <p class="browsehappy">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="#">upgrade your browser</a> to improve your experience.
+      </p>
+    <![endif]-->
+    <div class="container">
+      <nav>
+        <a href="/">Shopping Cart</a>
+      </nav>
+      <div class="profile">
+       <h1>My Profile</h1>
+       <input type="text" id="profile-firstname" placeholder="First Name" ><br>
+       <input type="text" id="profile-lastname" placeholder="Last Name" ><br>
+       <button id="save-info">Save Info</button><br>
+       <h1>Edit Password</h1>
+       <input type="password" id="old-password" placeholder="Old Password" required><br>
+       <div id="err"></div>
+      <input type="password" id="new-password" placeholder="New Password" required><br>
+      <input type="password" id="new-confirm-password" placeholder="Confirm New Password" required><br>
+      <div id="matcherr"></div>
+      <button id="change-password">Change Password</button><br>
+      
+      <button id="logout">Logout</button><br>
+      </div>
+
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

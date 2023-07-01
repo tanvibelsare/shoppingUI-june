@@ -1,0 +1,42 @@
+nav {
+   
+   
+    color: white;
+ 
+    z-index: 100;
+    top: 0;
+    background-color: black;
+    border-bottom: 1px solid white;
+    padding: 1rem;
+    font-size: 1rem;
+  }
+  
+  nav .brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  button{
+    font-family: 'Inter';
+    width: 110px;
+    padding: 10px 5px;
+     
+    border-radius: 0px;
+    background-color:#000000;
+    color:#ffffff;
+    border: 1px solid #000000;
+    margin-top: 15px;
+  }
+  input{
+    border: 1px solid #000000;
+    width: 90%;
+    padding: 10px 20px;
+    margin-top: 15px;
+  }
+  .profile{
+    height: 70%;
+    padding-left: 100px;
+  }
+  h1{
+      text-align: center;
+  }

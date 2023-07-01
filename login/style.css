@@ -1,0 +1,48 @@
+button{
+    font-family: 'Inter';
+    width: 90px;
+    padding: 10px 5px;
+     
+    border-radius: 0px;
+    background-color:#000000;
+    color:#ffffff;
+    border: 1px solid #000000;
+    margin-top: 15px;
+  }
+  input{
+    border: 1px solid #000000;
+    width: 90%;
+    padding: 10px 20px;
+    margin-top: 15px;
+  }
+  p{
+    font-family: "Inter";
+    font-size:30px;
+    font-weight:100;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    /* position: sticky; */
+    z-index: 100;
+    top: 0;
+    background-color: black;
+    border-bottom: 1px solid white;
+    padding: 1rem;
+    font-size: 1rem;
+  }
+  
+  nav .brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  nav .nav-items a {
+    margin: 0 1rem;
+  }
+  #login-form{
+    height: 70%;
+    padding-left: 90px;
+  }

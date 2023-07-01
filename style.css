@@ -1,0 +1,42 @@
+/* Write styles here */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    /* position: sticky; */
+    z-index: 100;
+    top: 0;
+    background-color: black;
+    border-bottom: 1px solid white;
+    padding: 1rem;
+    font-size: 1rem;
+  }
+  
+  nav .brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  nav .nav-items a {
+    margin: 0 1rem;
+  }
+  .main-container{
+    display: flex;
+  }
+  .text{
+      width: 40%;
+   }
+  .text,h1,p{
+    font-family: 'Inter';
+    padding-left:40px
+  }
+  button{
+    font-family: 'Inter';
+    width: 90px;
+    padding: 10px 5px;
+     
+    border-radius: 0px;
+    background-color:#000000;
+    color:#ffffff;
+    border: 1px solid #000000;
+  }
